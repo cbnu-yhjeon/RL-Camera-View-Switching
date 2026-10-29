@@ -1,0 +1,44 @@
+cache_dir: data/cache
+results_dir: results/runs
+seed: 1
+img_pca: 64
+device: cpu
+threads: 3
+env:
+  history: 4
+  since_cap: 10
+  concat_scenes: 1
+reward:
+  w_risk: 1.0
+  lambda_sw: 0.1
+  lambda_miss: 0.5
+  hazard: haz5
+encoder:
+  d: 64
+  heads: 4
+  ff: 128
+  layers: 1
+  use_img: true
+  use_risk: true
+  use_can: true
+  use_gru: true
+train:
+  conds:
+  - gt
+  val_cond: gt
+  eval_every: 20000
+eval:
+  split: test
+  conds:
+  - gt
+  - noisy-medium
+exp_name: a2c
+algo: a2c
+a2c:
+  total_steps: 1000000
+  n_envs: 32
+  n_steps: 8
+  gamma: 0.9
+  gae_lambda: 1.0
+  lr: 0.0003
+  ent_coef: 0.01

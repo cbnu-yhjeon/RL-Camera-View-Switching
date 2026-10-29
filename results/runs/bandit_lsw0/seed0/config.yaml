@@ -1,0 +1,46 @@
+cache_dir: data/cache
+results_dir: results/runs
+seed: 0
+img_pca: 64
+device: cpu
+threads: 3
+env:
+  history: 4
+  since_cap: 10
+  concat_scenes: 1
+reward:
+  w_risk: 1.0
+  lambda_sw: 0
+  lambda_miss: 0.5
+  hazard: haz5
+encoder:
+  d: 64
+  heads: 4
+  ff: 128
+  layers: 1
+  use_img: true
+  use_risk: true
+  use_can: true
+  use_gru: true
+train:
+  conds:
+  - gt
+  val_cond: gt
+  eval_every: 20000
+eval:
+  split: test
+  conds:
+  - gt
+  - noisy-medium
+exp_name: bandit
+algo: dqn
+dqn:
+  total_steps: 100000
+  n_envs: 32
+  gamma: 0.0
+  lr: 0.0003
+  batch_size: 256
+  learning_starts: 5000
+  eps_fraction: 0.3
+  dueling: true
+  all_actions: true

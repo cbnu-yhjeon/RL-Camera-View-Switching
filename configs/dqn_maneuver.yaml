@@ -1,0 +1,6 @@
+# DQN-M: 보상에 기동 적합도 항 w_m·m(c)를 더한다 (연구 저장소 라벨 점수의 기동 항, λ=0.4).
+# 골드셋(사람)은 위험 객체보다 '곧 갈 방향'을 보고 화면을 고른다는 연구 저장소 관찰(A2)에 대한 대응.
+inherit: dqn.yaml
+exp_name: dqn_maneuver
+reward:
+  w_maneuver: 0.4

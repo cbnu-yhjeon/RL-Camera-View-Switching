@@ -1,0 +1,5 @@
+# 절제: 표준 DQN처럼 실제로 고른 행동 하나만 회귀 (전 행동 타깃 끔)
+inherit: dqn.yaml
+exp_name: dqn_vanilla
+dqn:
+  all_actions: false

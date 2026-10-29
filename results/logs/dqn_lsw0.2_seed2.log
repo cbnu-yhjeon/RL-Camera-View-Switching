@@ -1,0 +1,9 @@
+[학습] dqn seed=2 λ_sw=0.2 λ_miss=0.5 conds=['gt'] → results/runs/dqn_lsw0.2/seed2
+  [   20000] val ret   4.011  vis  95.5%  flicker 0.338  sw/min  9.52  aux 0.92  (51s)
+  [   40000] val ret   4.072  vis  96.0%  flicker 0.334  sw/min  9.08  aux 0.87  (111s)
+  [   60000] val ret   4.073  vis  96.0%  flicker 0.314  sw/min  8.84  aux 0.86  (174s)
+  [   80000] val ret   4.088  vis  96.1%  flicker 0.313  sw/min  9.10  aux 0.88  (232s)
+  [  100000] val ret   4.084  vis  96.1%  flicker 0.318  sw/min  8.87  aux 0.86  (296s)
+  [  100000] val ret   4.084  vis  96.1%  flicker 0.318  sw/min  8.87  aux 0.86  (296s)
+  [test/gt] ret 3.778 vis 94.8% flicker 0.288 sw/min 9.47 gold top1 0.5143
+  [test/noisy-medium] ret 3.516 vis 94.5% flicker 0.326 sw/min 11.98 gold top1 0.4525

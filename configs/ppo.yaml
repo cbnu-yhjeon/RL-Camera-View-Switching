@@ -1,0 +1,15 @@
+# RL-2: PPO
+inherit: base.yaml
+exp_name: ppo
+algo: ppo
+a2c:
+  total_steps: 1000000
+  n_envs: 32
+  n_steps: 32
+  gamma: 0.9
+  gae_lambda: 0.95
+  lr: 3.0e-4
+  ent_coef: 0.01
+  epochs: 4
+  minibatch: 512
+  clip: 0.2

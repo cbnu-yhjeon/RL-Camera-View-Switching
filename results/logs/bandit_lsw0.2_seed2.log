@@ -1,0 +1,9 @@
+[학습] dqn seed=2 λ_sw=0.2 λ_miss=0.5 conds=['gt'] → results/runs/bandit_lsw0.2/seed2
+  [   20000] val ret   3.576  vis  93.9%  flicker 0.303  sw/min  7.93  aux 0.73  (32s)
+  [   40000] val ret   3.612  vis  94.1%  flicker 0.299  sw/min  7.89  aux 0.71  (67s)
+  [   60000] val ret   3.641  vis  94.1%  flicker 0.305  sw/min  8.03  aux 0.71  (105s)
+  [   80000] val ret   3.656  vis  94.3%  flicker 0.309  sw/min  8.31  aux 0.72  (140s)
+  [  100000] val ret   3.576  vis  94.2%  flicker 0.313  sw/min  8.19  aux 0.71  (180s)
+  [  100000] val ret   3.576  vis  94.2%  flicker 0.313  sw/min  8.19  aux 0.71  (180s)
+  [test/gt] ret 3.457 vis 94.1% flicker 0.340 sw/min 8.50 gold top1 0.4624
+  [test/noisy-medium] ret 3.246 vis 93.0% flicker 0.341 sw/min 10.62 gold top1 0.4031

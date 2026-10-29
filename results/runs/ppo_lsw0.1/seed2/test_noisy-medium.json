@@ -1,0 +1,23 @@
+{
+  "n": 5108,
+  "visibility_haz5": 95.44,
+  "visibility_haz3": 95.82,
+  "precision": 5.24,
+  "mean_aux": 0.9861,
+  "flicker": 0.4613,
+  "switch_per_min": 16.398,
+  "label_top1": 0.6243,
+  "ret": 3.9945,
+  "ret_gain": 4.7646,
+  "ret_switch": 0.6441,
+  "ret_miss": 0.126,
+  "gold_n": 285,
+  "gold_top1": 0.5984,
+  "gold_top1_unw": 0.4778,
+  "gold_top2": 0.9229,
+  "gold_top2_unw": 0.8667,
+  "gold_f1": 0.0947,
+  "gold_f1_unw": 0.1234,
+  "gold_quiet": 0.004,
+  "gold_quiet_unw": 0.0154
+}

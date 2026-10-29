@@ -1,0 +1,37 @@
+# 공통 기본값. 다른 설정은 `inherit: base.yaml`로 물려받고 바뀌는 값만 적는다.
+cache_dir: data/cache          # scripts/00_export_research_cache.py 출력
+results_dir: results/runs
+seed: 42
+img_pca: 64                    # 영상 특징 PCA 차원 (train에서만 적합, src/data/log.img_pca). null이면 576 그대로
+device: cpu                    # GPU를 다른 작업이 점유 중이라 CPU 기본. 작은 모델이라 CPU로 충분
+threads: 3                     # 실행당 torch 스레드 — 여러 실행을 병렬로 돌린다
+
+env:
+  history: 4                   # 과거 2초 (연구 저장소 모델과 같은 입력 창)
+  since_cap: 10
+  concat_scenes: 1             # 연속 scene 이어 붙이기 (긴 에피소드 실험)
+
+reward:
+  w_risk: 1.0
+  lambda_sw: 0.1               # 전환 비용 — RL-1에서 스윕
+  lambda_miss: 0.5             # 위험 채널이 화면 밖일 때
+  hazard: haz5                 # TTC<5s·DCA<3m (연구 저장소 '실제 위험' 정의)
+
+encoder:
+  d: 64
+  heads: 4
+  ff: 128
+  layers: 1
+  use_img: true
+  use_risk: true
+  use_can: true
+  use_gru: true
+
+train:
+  conds: [gt]                  # 관측 위험도 조건 (에피소드마다 하나를 무작위로)
+  val_cond: gt                 # 검증 분할 조건 — 최고 모델 선택 기준(검증 누적 보상)
+  eval_every: 20000          # 실행당 검증 주기(환경 스텝)
+
+eval:
+  split: test
+  conds: [gt, noisy-medium]

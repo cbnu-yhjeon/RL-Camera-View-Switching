@@ -1,0 +1,157 @@
+done a2c_lsw0.1_seed1
+done a2c_lsw0.1_seed0
+done a2c_lsw0.1_seed2
+done ppo_lsw0.1_seed0
+done ppo_lsw0.1_seed1
+done dqn_noisy_lsw0.1_seed0
+done dqn_vanilla_lsw0.1_seed0
+done bandit_lsw0_seed0
+done dqn_lsw0_seed0
+done ppo_lsw0.1_seed2
+done bandit_lsw0.05_seed0
+done dqn_lsw0.05_seed0
+done bandit_lsw0.1_seed0
+done dqn_lsw0.1_seed0
+done bandit_lsw0.2_seed0
+done dqn_lsw0.2_seed0
+done bandit_lsw0.3_seed0
+done dqn_lsw0.3_seed0
+done bandit_lsw0.5_seed0
+done dqn_lsw0.5_seed0
+done dqn_noisy_lsw0.1_seed1
+done dqn_vanilla_lsw0.1_seed1
+done bandit_lsw0_seed1
+done dqn_lsw0_seed1
+done bandit_lsw0.05_seed1
+done dqn_lsw0.05_seed1
+done bandit_lsw0.1_seed1
+done dqn_lsw0.1_seed1
+done bandit_lsw0.2_seed1
+done dqn_lsw0.2_seed1
+done bandit_lsw0.3_seed1
+done dqn_lsw0.3_seed1
+done bandit_lsw0.5_seed1
+done dqn_lsw0.5_seed1
+done dqn_noisy_lsw0.1_seed2
+done dqn_vanilla_lsw0.1_seed2
+done bandit_lsw0_seed2
+done dqn_lsw0_seed2
+done bandit_lsw0.05_seed2
+done dqn_lsw0.05_seed2
+done bandit_lsw0.1_seed2
+done dqn_lsw0.1_seed2
+done bandit_lsw0.2_seed2
+done bandit_lsw0.3_seed2
+done dqn_lsw0.2_seed2
+done dqn_lsw0.3_seed2
+done bandit_lsw0.5_seed2
+done dqn_lsw0.5_seed2
+[test/gt/λ_sw=0] B1 -1.11  RISK 5.15  RISK+hold 3.95  B2 4.30  B2c 4.40  B2c+hold 3.93  SUP 4.01  SUP+hold 3.33  ORACLE 5.18
+[test/noisy-light/λ_sw=0] B1 -1.11  RISK 5.05  RISK+hold 3.71  B2 4.26  B2c 4.35  B2c+hold 3.92  SUP 3.97  SUP+hold 3.33  ORACLE 5.18
+[test/noisy-medium/λ_sw=0] B1 -1.11  RISK 4.78  RISK+hold 3.53  B2 4.18  B2c 4.26  B2c+hold 3.77  SUP 3.88  SUP+hold 3.25  ORACLE 5.18
+[test/noisy-heavy/λ_sw=0] B1 -1.11  RISK 4.40  RISK+hold 3.10  B2 4.00  B2c 4.07  B2c+hold 3.51  SUP 3.85  SUP+hold 3.11  ORACLE 5.18
+[test/noisy-light:miss/λ_sw=0] B1 -1.11  RISK 5.02  RISK+hold 3.78  B2 4.28  B2c 4.38  B2c+hold 3.90  SUP 3.98  SUP+hold 3.34  ORACLE 5.18
+[test/noisy-light:fp/λ_sw=0] B1 -1.11  RISK 5.13  RISK+hold 3.87  B2 4.29  B2c 4.38  B2c+hold 3.91  SUP 4.02  SUP+hold 3.34  ORACLE 5.18
+[test/noisy-light:pos/λ_sw=0] B1 -1.11  RISK 5.14  RISK+hold 3.93  B2 4.28  B2c 4.37  B2c+hold 3.98  SUP 4.01  SUP+hold 3.35  ORACLE 5.18
+[test/noisy-light:drop/λ_sw=0] B1 -1.11  RISK 4.32  RISK+hold 3.43  B2 3.71  B2c 3.77  B2c+hold 3.43  SUP 3.57  SUP+hold 3.00  ORACLE 5.18
+[test/noisy-medium:miss/λ_sw=0] B1 -1.11  RISK 4.89  RISK+hold 3.58  B2 4.30  B2c 4.39  B2c+hold 3.91  SUP 3.94  SUP+hold 3.25  ORACLE 5.18
+[test/noisy-medium:fp/λ_sw=0] B1 -1.11  RISK 5.08  RISK+hold 3.78  B2 4.25  B2c 4.34  B2c+hold 3.75  SUP 4.01  SUP+hold 3.33  ORACLE 5.18
+[test/noisy-medium:pos/λ_sw=0] B1 -1.11  RISK 5.10  RISK+hold 3.87  B2 4.29  B2c 4.37  B2c+hold 3.99  SUP 4.00  SUP+hold 3.36  ORACLE 5.18
+[test/noisy-medium:drop/λ_sw=0] B1 -1.11  RISK 3.40  RISK+hold 2.73  B2 3.04  B2c 3.10  B2c+hold 2.85  SUP 2.97  SUP+hold 2.48  ORACLE 5.18
+[test/noisy-heavy:miss/λ_sw=0] B1 -1.11  RISK 4.66  RISK+hold 3.37  B2 4.25  B2c 4.35  B2c+hold 3.87  SUP 3.82  SUP+hold 3.14  ORACLE 5.18
+[test/noisy-heavy:fp/λ_sw=0] B1 -1.11  RISK 4.96  RISK+hold 3.63  B2 4.15  B2c 4.23  B2c+hold 3.61  SUP 3.95  SUP+hold 3.30  ORACLE 5.18
+[test/noisy-heavy:pos/λ_sw=0] B1 -1.11  RISK 4.97  RISK+hold 3.86  B2 4.25  B2c 4.32  B2c+hold 3.98  SUP 3.97  SUP+hold 3.37  ORACLE 5.18
+[test/noisy-heavy:drop/λ_sw=0] B1 -1.11  RISK 2.32  RISK+hold 1.84  B2 2.19  B2c 2.19  B2c+hold 2.03  SUP 2.28  SUP+hold 2.06  ORACLE 5.18
+[test/gt/λ_sw=0.05] B1 -1.11  RISK 4.58  RISK+hold 3.60  B2 4.06  B2c 4.15  B2c+hold 3.72  SUP 3.53  SUP+hold 3.00  ORACLE 4.83
+[test/noisy-light/λ_sw=0.05] B1 -1.11  RISK 4.34  RISK+hold 3.33  B2 4.00  B2c 4.08  B2c+hold 3.69  SUP 3.49  SUP+hold 2.99  ORACLE 4.83
+[test/noisy-medium/λ_sw=0.05] B1 -1.11  RISK 3.85  RISK+hold 3.12  B2 3.87  B2c 3.94  B2c+hold 3.51  SUP 3.39  SUP+hold 2.91  ORACLE 4.83
+[test/noisy-heavy/λ_sw=0.05] B1 -1.11  RISK 3.28  RISK+hold 2.67  B2 3.65  B2c 3.71  B2c+hold 3.23  SUP 3.35  SUP+hold 2.77  ORACLE 4.83
+[test/noisy-light:miss/λ_sw=0.05] B1 -1.11  RISK 4.40  RISK+hold 3.42  B2 4.03  B2c 4.13  B2c+hold 3.68  SUP 3.49  SUP+hold 3.01  ORACLE 4.83
+[test/noisy-light:fp/λ_sw=0.05] B1 -1.11  RISK 4.48  RISK+hold 3.51  B2 4.03  B2c 4.11  B2c+hold 3.68  SUP 3.54  SUP+hold 3.01  ORACLE 4.83
+[test/noisy-light:pos/λ_sw=0.05] B1 -1.11  RISK 4.56  RISK+hold 3.58  B2 4.04  B2c 4.12  B2c+hold 3.76  SUP 3.53  SUP+hold 3.01  ORACLE 4.83
+[test/noisy-light:drop/λ_sw=0.05] B1 -1.11  RISK 3.80  RISK+hold 3.10  B2 3.49  B2c 3.54  B2c+hold 3.22  SUP 3.09  SUP+hold 2.66  ORACLE 4.83
+[test/noisy-medium:miss/λ_sw=0.05] B1 -1.11  RISK 4.20  RISK+hold 3.21  B2 4.04  B2c 4.13  B2c+hold 3.69  SUP 3.45  SUP+hold 2.91  ORACLE 4.83
+[test/noisy-medium:fp/λ_sw=0.05] B1 -1.11  RISK 4.28  RISK+hold 3.39  B2 3.96  B2c 4.04  B2c+hold 3.50  SUP 3.53  SUP+hold 2.99  ORACLE 4.83
+[test/noisy-medium:pos/λ_sw=0.05] B1 -1.11  RISK 4.49  RISK+hold 3.52  B2 4.05  B2c 4.12  B2c+hold 3.78  SUP 3.53  SUP+hold 3.03  ORACLE 4.83
+[test/noisy-medium:drop/λ_sw=0.05] B1 -1.11  RISK 2.94  RISK+hold 2.43  B2 2.85  B2c 2.90  B2c+hold 2.68  SUP 2.51  SUP+hold 2.16  ORACLE 4.83
+[test/noisy-heavy:miss/λ_sw=0.05] B1 -1.11  RISK 3.88  RISK+hold 2.99  B2 3.98  B2c 4.07  B2c+hold 3.64  SUP 3.31  SUP+hold 2.79  ORACLE 4.83
+[test/noisy-heavy:fp/λ_sw=0.05] B1 -1.11  RISK 4.02  RISK+hold 3.22  B2 3.81  B2c 3.88  B2c+hold 3.34  SUP 3.46  SUP+hold 2.96  ORACLE 4.83
+[test/noisy-heavy:pos/λ_sw=0.05] B1 -1.11  RISK 4.34  RISK+hold 3.51  B2 4.00  B2c 4.06  B2c+hold 3.76  SUP 3.50  SUP+hold 3.04  ORACLE 4.83
+[test/noisy-heavy:drop/λ_sw=0.05] B1 -1.11  RISK 1.92  RISK+hold 1.57  B2 2.03  B2c 2.03  B2c+hold 1.89  SUP 1.85  SUP+hold 1.76  ORACLE 4.83
+[test/gt/λ_sw=0.1] B1 -1.11  RISK 4.01  RISK+hold 3.24  B2 3.82  B2c 3.90  B2c+hold 3.50  SUP 3.05  SUP+hold 2.67  ORACLE 4.59
+[test/noisy-light/λ_sw=0.1] B1 -1.11  RISK 3.64  RISK+hold 2.95  B2 3.73  B2c 3.81  B2c+hold 3.46  SUP 3.01  SUP+hold 2.66  ORACLE 4.59
+[test/noisy-medium/λ_sw=0.1] B1 -1.11  RISK 2.93  RISK+hold 2.70  B2 3.56  B2c 3.62  B2c+hold 3.25  SUP 2.90  SUP+hold 2.58  ORACLE 4.59
+[test/noisy-heavy/λ_sw=0.1] B1 -1.11  RISK 2.16  RISK+hold 2.23  B2 3.30  B2c 3.34  B2c+hold 2.95  SUP 2.85  SUP+hold 2.43  ORACLE 4.59
+[test/noisy-light:miss/λ_sw=0.1] B1 -1.11  RISK 3.78  RISK+hold 3.05  B2 3.78  B2c 3.87  B2c+hold 3.46  SUP 3.01  SUP+hold 2.67  ORACLE 4.59
+[test/noisy-light:fp/λ_sw=0.1] B1 -1.11  RISK 3.84  RISK+hold 3.14  B2 3.76  B2c 3.84  B2c+hold 3.45  SUP 3.06  SUP+hold 2.68  ORACLE 4.59
+[test/noisy-light:pos/λ_sw=0.1] B1 -1.11  RISK 3.98  RISK+hold 3.22  B2 3.80  B2c 3.87  B2c+hold 3.55  SUP 3.05  SUP+hold 2.68  ORACLE 4.59
+[test/noisy-light:drop/λ_sw=0.1] B1 -1.11  RISK 3.28  RISK+hold 2.76  B2 3.26  B2c 3.31  B2c+hold 3.01  SUP 2.61  SUP+hold 2.33  ORACLE 4.59
+[test/noisy-medium:miss/λ_sw=0.1] B1 -1.11  RISK 3.51  RISK+hold 2.84  B2 3.78  B2c 3.86  B2c+hold 3.46  SUP 2.95  SUP+hold 2.57  ORACLE 4.59
+[test/noisy-medium:fp/λ_sw=0.1] B1 -1.11  RISK 3.49  RISK+hold 2.99  B2 3.66  B2c 3.74  B2c+hold 3.24  SUP 3.05  SUP+hold 2.65  ORACLE 4.59
+[test/noisy-medium:pos/λ_sw=0.1] B1 -1.11  RISK 3.88  RISK+hold 3.16  B2 3.81  B2c 3.87  B2c+hold 3.56  SUP 3.06  SUP+hold 2.70  ORACLE 4.59
+[test/noisy-medium:drop/λ_sw=0.1] B1 -1.11  RISK 2.49  RISK+hold 2.13  B2 2.66  B2c 2.71  B2c+hold 2.50  SUP 2.06  SUP+hold 1.84  ORACLE 4.59
+[test/noisy-heavy:miss/λ_sw=0.1] B1 -1.11  RISK 3.10  RISK+hold 2.61  B2 3.71  B2c 3.80  B2c+hold 3.41  SUP 2.80  SUP+hold 2.45  ORACLE 4.59
+[test/noisy-heavy:fp/λ_sw=0.1] B1 -1.11  RISK 3.07  RISK+hold 2.81  B2 3.48  B2c 3.53  B2c+hold 3.06  SUP 2.98  SUP+hold 2.61  ORACLE 4.59
+[test/noisy-heavy:pos/λ_sw=0.1] B1 -1.11  RISK 3.71  RISK+hold 3.15  B2 3.75  B2c 3.80  B2c+hold 3.54  SUP 3.02  SUP+hold 2.71  ORACLE 4.59
+[test/noisy-heavy:drop/λ_sw=0.1] B1 -1.11  RISK 1.53  RISK+hold 1.30  B2 1.88  B2c 1.87  B2c+hold 1.75  SUP 1.43  SUP+hold 1.47  ORACLE 4.59
+[test/gt/λ_sw=0.2] B1 -1.11  RISK 2.87  RISK+hold 2.54  B2 3.33  B2c 3.40  B2c+hold 3.07  SUP 2.09  SUP+hold 2.00  ORACLE 4.20
+[test/noisy-light/λ_sw=0.2] B1 -1.11  RISK 2.22  RISK+hold 2.19  B2 3.21  B2c 3.28  B2c+hold 3.00  SUP 2.05  SUP+hold 1.99  ORACLE 4.20
+[test/noisy-medium/λ_sw=0.2] B1 -1.11  RISK 1.09  RISK+hold 1.87  B2 2.94  B2c 2.97  B2c+hold 2.74  SUP 1.92  SUP+hold 1.90  ORACLE 4.20
+[test/noisy-heavy/λ_sw=0.2] B1 -1.11  RISK -0.09  RISK+hold 1.35  B2 2.61  B2c 2.61  B2c+hold 2.39  SUP 1.85  SUP+hold 1.75  ORACLE 4.20
+[test/noisy-light:miss/λ_sw=0.2] B1 -1.11  RISK 2.54  RISK+hold 2.33  B2 3.28  B2c 3.36  B2c+hold 3.02  SUP 2.03  SUP+hold 2.00  ORACLE 4.20
+[test/noisy-light:fp/λ_sw=0.2] B1 -1.11  RISK 2.54  RISK+hold 2.41  B2 3.24  B2c 3.31  B2c+hold 2.99  SUP 2.09  SUP+hold 2.01  ORACLE 4.20
+[test/noisy-light:pos/λ_sw=0.2] B1 -1.11  RISK 2.82  RISK+hold 2.51  B2 3.31  B2c 3.38  B2c+hold 3.12  SUP 2.10  SUP+hold 2.02  ORACLE 4.20
+[test/noisy-light:drop/λ_sw=0.2] B1 -1.11  RISK 2.24  RISK+hold 2.09  B2 2.80  B2c 2.85  B2c+hold 2.60  SUP 1.65  SUP+hold 1.66  ORACLE 4.20
+[test/noisy-medium:miss/λ_sw=0.2] B1 -1.11  RISK 2.13  RISK+hold 2.10  B2 3.25  B2c 3.33  B2c+hold 3.01  SUP 1.96  SUP+hold 1.89  ORACLE 4.20
+[test/noisy-medium:fp/λ_sw=0.2] B1 -1.11  RISK 1.89  RISK+hold 2.20  B2 3.08  B2c 3.14  B2c+hold 2.74  SUP 2.09  SUP+hold 1.98  ORACLE 4.20
+[test/noisy-medium:pos/λ_sw=0.2] B1 -1.11  RISK 2.66  RISK+hold 2.45  B2 3.32  B2c 3.38  B2c+hold 3.13  SUP 2.11  SUP+hold 2.04  ORACLE 4.20
+[test/noisy-medium:drop/λ_sw=0.2] B1 -1.11  RISK 1.58  RISK+hold 1.53  B2 2.28  B2c 2.32  B2c+hold 2.16  SUP 1.14  SUP+hold 1.21  ORACLE 4.20
+[test/noisy-heavy:miss/λ_sw=0.2] B1 -1.11  RISK 1.54  RISK+hold 1.85  B2 3.17  B2c 3.24  B2c+hold 2.95  SUP 1.78  SUP+hold 1.76  ORACLE 4.20
+[test/noisy-heavy:fp/λ_sw=0.2] B1 -1.11  RISK 1.19  RISK+hold 1.98  B2 2.80  B2c 2.83  B2c+hold 2.51  SUP 2.01  SUP+hold 1.92  ORACLE 4.20
+[test/noisy-heavy:pos/λ_sw=0.2] B1 -1.11  RISK 2.45  RISK+hold 2.44  B2 3.25  B2c 3.29  B2c+hold 3.09  SUP 2.07  SUP+hold 2.04  ORACLE 4.20
+[test/noisy-heavy:drop/λ_sw=0.2] B1 -1.11  RISK 0.75  RISK+hold 0.77  B2 1.56  B2c 1.56  B2c+hold 1.46  SUP 0.59  SUP+hold 0.88  ORACLE 4.20
+[test/gt/λ_sw=0.3] B1 -1.11  RISK 1.73  RISK+hold 1.83  B2 2.84  B2c 2.90  B2c+hold 2.63  SUP 1.13  SUP+hold 1.34  ORACLE 3.90
+[test/noisy-light/λ_sw=0.3] B1 -1.11  RISK 0.81  RISK+hold 1.43  B2 2.69  B2c 2.75  B2c+hold 2.54  SUP 1.08  SUP+hold 1.33  ORACLE 3.90
+[test/noisy-medium/λ_sw=0.3] B1 -1.11  RISK -0.75  RISK+hold 1.03  B2 2.32  B2c 2.32  B2c+hold 2.22  SUP 0.94  SUP+hold 1.22  ORACLE 3.90
+[test/noisy-heavy/λ_sw=0.3] B1 -1.11  RISK -2.34  RISK+hold 0.48  B2 1.91  B2c 1.89  B2c+hold 1.83  SUP 0.85  SUP+hold 1.07  ORACLE 3.90
+[test/noisy-light:miss/λ_sw=0.3] B1 -1.11  RISK 1.30  RISK+hold 1.61  B2 2.78  B2c 2.85  B2c+hold 2.58  SUP 1.06  SUP+hold 1.33  ORACLE 3.90
+[test/noisy-light:fp/λ_sw=0.3] B1 -1.11  RISK 1.25  RISK+hold 1.68  B2 2.72  B2c 2.77  B2c+hold 2.53  SUP 1.13  SUP+hold 1.34  ORACLE 3.90
+[test/noisy-light:pos/λ_sw=0.3] B1 -1.11  RISK 1.66  RISK+hold 1.81  B2 2.83  B2c 2.89  B2c+hold 2.69  SUP 1.15  SUP+hold 1.35  ORACLE 3.90
+[test/noisy-light:drop/λ_sw=0.3] B1 -1.11  RISK 1.20  RISK+hold 1.43  B2 2.34  B2c 2.39  B2c+hold 2.19  SUP 0.69  SUP+hold 1.00  ORACLE 3.90
+[test/noisy-medium:miss/λ_sw=0.3] B1 -1.11  RISK 0.74  RISK+hold 1.35  B2 2.73  B2c 2.80  B2c+hold 2.55  SUP 0.97  SUP+hold 1.21  ORACLE 3.90
+[test/noisy-medium:fp/λ_sw=0.3] B1 -1.11  RISK 0.30  RISK+hold 1.41  B2 2.49  B2c 2.55  B2c+hold 2.23  SUP 1.13  SUP+hold 1.31  ORACLE 3.90
+[test/noisy-medium:pos/λ_sw=0.3] B1 -1.11  RISK 1.45  RISK+hold 1.74  B2 2.84  B2c 2.88  B2c+hold 2.69  SUP 1.17  SUP+hold 1.38  ORACLE 3.90
+[test/noisy-medium:drop/λ_sw=0.3] B1 -1.11  RISK 0.68  RISK+hold 0.92  B2 1.90  B2c 1.94  B2c+hold 1.81  SUP 0.23  SUP+hold 0.58  ORACLE 3.90
+[test/noisy-heavy:miss/λ_sw=0.3] B1 -1.11  RISK -0.02  RISK+hold 1.08  B2 2.63  B2c 2.69  B2c+hold 2.50  SUP 0.76  SUP+hold 1.06  ORACLE 3.90
+[test/noisy-heavy:fp/λ_sw=0.3] B1 -1.11  RISK -0.69  RISK+hold 1.15  B2 2.13  B2c 2.13  B2c+hold 1.96  SUP 1.04  SUP+hold 1.23  ORACLE 3.90
+[test/noisy-heavy:pos/λ_sw=0.3] B1 -1.11  RISK 1.19  RISK+hold 1.73  B2 2.74  B2c 2.78  B2c+hold 2.64  SUP 1.12  SUP+hold 1.38  ORACLE 3.90
+[test/noisy-heavy:drop/λ_sw=0.3] B1 -1.11  RISK -0.04  RISK+hold 0.24  B2 1.25  B2c 1.25  B2c+hold 1.18  SUP -0.26  SUP+hold 0.29  ORACLE 3.90
+[test/gt/λ_sw=0.5] B1 -1.11  RISK -0.54  RISK+hold 0.42  B2 1.87  B2c 1.90  B2c+hold 1.77  SUP -0.79  SUP+hold 0.01  ORACLE 3.44
+[test/noisy-light/λ_sw=0.5] B1 -1.11  RISK -2.02  RISK+hold -0.09  B2 1.64  B2c 1.68  B2c+hold 1.62  SUP -0.84  SUP+hold -0.01  ORACLE 3.44
+[test/noisy-medium/λ_sw=0.5] B1 -1.11  RISK -4.44  RISK+hold -0.63  B2 1.07  B2c 1.03  B2c+hold 1.19  SUP -1.01  SUP+hold -0.13  ORACLE 3.44
+[test/noisy-heavy/λ_sw=0.5] B1 -1.11  RISK -6.83  RISK+hold -1.27  B2 0.52  B2c 0.43  B2c+hold 0.71  SUP -1.15  SUP+hold -0.29  ORACLE 3.44
+[test/noisy-light:miss/λ_sw=0.5] B1 -1.11  RISK -1.18  RISK+hold 0.16  B2 1.78  B2c 1.83  B2c+hold 1.69  SUP -0.89  SUP+hold -0.01  ORACLE 3.44
+[test/noisy-light:fp/λ_sw=0.5] B1 -1.11  RISK -1.34  RISK+hold 0.22  B2 1.67  B2c 1.69  B2c+hold 1.60  SUP -0.79  SUP+hold 0.01  ORACLE 3.44
+[test/noisy-light:pos/λ_sw=0.5] B1 -1.11  RISK -0.66  RISK+hold 0.39  B2 1.87  B2c 1.91  B2c+hold 1.82  SUP -0.76  SUP+hold 0.02  ORACLE 3.44
+[test/noisy-light:drop/λ_sw=0.5] B1 -1.11  RISK -0.88  RISK+hold 0.09  B2 1.43  B2c 1.47  B2c+hold 1.36  SUP -1.23  SUP+hold -0.34  ORACLE 3.44
+[test/noisy-medium:miss/λ_sw=0.5] B1 -1.11  RISK -2.03  RISK+hold -0.14  B2 1.68  B2c 1.74  B2c+hold 1.65  SUP -1.01  SUP+hold -0.14  ORACLE 3.44
+[test/noisy-medium:fp/λ_sw=0.5] B1 -1.11  RISK -2.89  RISK+hold -0.18  B2 1.32  B2c 1.35  B2c+hold 1.23  SUP -0.79  SUP+hold -0.04  ORACLE 3.44
+[test/noisy-medium:pos/λ_sw=0.5] B1 -1.11  RISK -0.98  RISK+hold 0.33  B2 1.87  B2c 1.89  B2c+hold 1.83  SUP -0.72  SUP+hold 0.06  ORACLE 3.44
+[test/noisy-medium:drop/λ_sw=0.5] B1 -1.11  RISK -1.14  RISK+hold -0.28  B2 1.14  B2c 1.16  B2c+hold 1.11  SUP -1.60  SUP+hold -0.69  ORACLE 3.44
+[test/noisy-heavy:miss/λ_sw=0.5] B1 -1.11  RISK -3.14  RISK+hold -0.44  B2 1.55  B2c 1.58  B2c+hold 1.58  SUP -1.27  SUP+hold -0.32  ORACLE 3.44
+[test/noisy-heavy:fp/λ_sw=0.5] B1 -1.11  RISK -4.46  RISK+hold -0.50  B2 0.78  B2c 0.74  B2c+hold 0.86  SUP -0.90  SUP+hold -0.16  ORACLE 3.44
+[test/noisy-heavy:pos/λ_sw=0.5] B1 -1.11  RISK -1.32  RISK+hold 0.31  B2 1.73  B2c 1.75  B2c+hold 1.75  SUP -0.78  SUP+hold 0.05  ORACLE 3.44
+[test/noisy-heavy:drop/λ_sw=0.5] B1 -1.11  RISK -1.60  RISK+hold -0.83  B2 0.62  B2c 0.62  B2c+hold 0.61  SUP -1.95  SUP+hold -0.89  ORACLE 3.44
+[val/gt/λ_sw=0] B1 -1.11  RISK 5.44  RISK+hold 4.32  B2c 4.76  B2c+hold 4.29  SUP 4.42  SUP+hold 3.74  ORACLE 5.50
+[val/noisy-medium/λ_sw=0] B1 -1.11  RISK 5.17  RISK+hold 3.85  B2c 4.68  B2c+hold 4.16  SUP 4.34  SUP+hold 3.64  ORACLE 5.50
+[val/gt/λ_sw=0.05] B1 -1.11  RISK 4.88  RISK+hold 3.98  B2c 4.53  B2c+hold 4.08  SUP 3.95  SUP+hold 3.42  ORACLE 5.15
+[val/noisy-medium/λ_sw=0.05] B1 -1.11  RISK 4.29  RISK+hold 3.44  B2c 4.37  B2c+hold 3.91  SUP 3.86  SUP+hold 3.31  ORACLE 5.15
+[val/gt/λ_sw=0.1] B1 -1.11  RISK 4.32  RISK+hold 3.64  B2c 4.31  B2c+hold 3.88  SUP 3.47  SUP+hold 3.09  ORACLE 4.91
+[val/noisy-medium/λ_sw=0.1] B1 -1.11  RISK 3.41  RISK+hold 3.04  B2c 4.06  B2c+hold 3.66  SUP 3.37  SUP+hold 2.98  ORACLE 4.91
+[val/gt/λ_sw=0.2] B1 -1.11  RISK 3.20  RISK+hold 2.95  B2c 3.85  B2c+hold 3.47  SUP 2.53  SUP+hold 2.45  ORACLE 4.55
+[val/noisy-medium/λ_sw=0.2] B1 -1.11  RISK 1.66  RISK+hold 2.23  B2c 3.45  B2c+hold 3.15  SUP 2.40  SUP+hold 2.31  ORACLE 4.55
+[val/gt/λ_sw=0.3] B1 -1.11  RISK 2.08  RISK+hold 2.27  B2c 3.40  B2c+hold 3.06  SUP 1.59  SUP+hold 1.81  ORACLE 4.27
+[val/noisy-medium/λ_sw=0.3] B1 -1.11  RISK -0.10  RISK+hold 1.42  B2c 2.84  B2c+hold 2.65  SUP 1.44  SUP+hold 1.64  ORACLE 4.27
+[val/gt/λ_sw=0.5] B1 -1.11  RISK -0.17  RISK+hold 0.90  B2c 2.49  B2c+hold 2.23  SUP -0.30  SUP+hold 0.52  ORACLE 3.82
+[val/noisy-medium/λ_sw=0.5] B1 -1.11  RISK -3.62  RISK+hold -0.20  B2c 1.61  B2c+hold 1.64  SUP -0.50  SUP+hold 0.31  ORACLE 3.82
+Terminated

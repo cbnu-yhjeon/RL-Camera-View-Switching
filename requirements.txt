@@ -1,0 +1,7 @@
+torch==2.14.0
+gymnasium>=1.0
+numpy
+pyyaml
+matplotlib
+tqdm
+pytest

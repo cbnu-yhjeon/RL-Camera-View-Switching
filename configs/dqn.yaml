@@ -1,0 +1,14 @@
+# RL-1: DQN (Double DQN, Experience Replay, Target Network)
+inherit: base.yaml
+exp_name: dqn
+algo: dqn
+dqn:
+  total_steps: 100000
+  n_envs: 32
+  gamma: 0.9
+  lr: 3.0e-4
+  batch_size: 256
+  learning_starts: 5000
+  eps_fraction: 0.3
+  dueling: true                # V(xₜ) + A(xₜ, vₜ₋₁, a) — 표시 상태 효과를 작은 A 흐름에 분리
+  all_actions: true            # 전 행동(반사실) 타깃 — 세계 전이가 행동과 무관해서 성립

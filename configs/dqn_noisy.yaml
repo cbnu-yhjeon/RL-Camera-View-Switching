@@ -1,0 +1,6 @@
+# RL-N: RL-1을 노이즈 위험도 입력으로 학습 — 연구 저장소 noise_mix(clean·light·medium·heavy) 실현
+inherit: dqn.yaml
+exp_name: dqn_noisy
+train:
+  conds: [gt, aug0, aug1, aug2, aug3]
+  val_cond: noisy-medium
